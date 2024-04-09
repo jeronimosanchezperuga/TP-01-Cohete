@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoheteScript : MonoBehaviour
+public class FuegoScript : MonoBehaviour
 {
-    public float speed;
-    public GameObject fuegoGO;
+
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +15,6 @@ public class CoheteScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0,speed,0);
+        transform.localScale = Vector3.one * Random.Range(.7f,1.2f); ;
     }
 }
