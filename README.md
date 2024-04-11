@@ -10,3 +10,21 @@
 . OnMouseDown y OnMouseUp  
 . SetActive  
 . transform.Translate  
+## Clase 2
+. Input.GetAxis  
+. If  
+. Acceder a los valores de los ejes de las propiedades de transformación  
+. Vector3  
+. Modificar y asignar propiedades de transfomación  
+. Limitar movimientos por posición  
+## Clase3
+. Detección de colisiones
+. Destroy  
+. Prefabs  
+. Input.GetKeyDown
+. Instantiate  
+## Clase 4
+. Random.Range
+. InvokeRepeating
+. transform.Rotate
+. transform.localScale
