@@ -24,7 +24,7 @@
 . Input.GetKeyDown
 . Instantiate  
 ## Clase 4
-. Random.Range
-. InvokeRepeating
-. transform.Rotate
-. transform.localScale
+. Random.Range  
+. InvokeRepeating  
+. transform.Rotate  
+. transform.localScale  
