@@ -28,3 +28,7 @@
 . InvokeRepeating  
 . transform.Rotate  
 . transform.localScale  
+## Clase 5
+. Randomización de rotación y escala  
+. Prefab variant  
+. Colisiones y tags
