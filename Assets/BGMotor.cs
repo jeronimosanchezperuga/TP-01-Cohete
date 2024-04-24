@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FuegoScript : MonoBehaviour
+public class BGMotor : MonoBehaviour
 {
-    public float minScale;
-    public float maxScale;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +15,6 @@ public class FuegoScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localScale = Vector3.one * Random.Range(minScale,maxScale); ;
+        transform.Translate(0,speed * Time.deltaTime,0);
     }
 }
